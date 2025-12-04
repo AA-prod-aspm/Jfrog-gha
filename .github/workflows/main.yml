@@ -19,5 +19,6 @@ jobs:
         with:
           name: "GHA-Jfrog"
           version: "1.11"
+          type: Docker
           url: "cbjfrog.saas-preprod.beescloud.com/jfrog-test-docker-target-repo/test-image:1.11"
           cloudbees-url: "https://api.saas-qa.beescloud.com"  
